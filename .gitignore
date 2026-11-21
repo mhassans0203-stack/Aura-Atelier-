@@ -1,0 +1,42 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+.pnp/
+.pnp.js
+
+# Next.js Build Output
+.next/
+frontend/.next/
+out/
+build/
+dist/
+
+# Python Cache & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+backend/__pycache__/
+backend/app/**/__pycache__/
+dashboard/__pycache__/
+.venv/
+venv/
+env/
+
+# Databases
+*.db
+*.sqlite3
+
+# Local Environment Variables
+.env.local
+.env.*.local
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# System
+.DS_Store
+Thumbs.db
